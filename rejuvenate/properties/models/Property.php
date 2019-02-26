@@ -26,8 +26,7 @@ class Property extends Model
      * @var array Behaviours Implemented
      */
     public $implement = [
-        '@RainLab.Translate.Behaviors.TranslatableModel',
-        '@Rejuvenate.Translate.Behaviors.TranslatableModel'
+        '@RainLab.Translate.Behaviors.TranslatableModel'
     ];
 
     /**
