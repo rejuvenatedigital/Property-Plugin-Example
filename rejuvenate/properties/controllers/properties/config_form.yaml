@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Property
+
+# Model Form Field configuration
+form: $/rejuvenate/properties/models/property/fields.yaml
+
+# Model Class name
+modelClass: Rejuvenate\Properties\Models\Property
+
+# Default redirect location
+defaultRedirect: rejuvenate/properties/properties
+
+# Create page
+create:
+    title: Create Property
+    redirect: rejuvenate/properties/properties/update/:id
+    redirectClose: rejuvenate/properties/properties
+
+# Update page
+update:
+    title: Edit Property
+    redirect: rejuvenate/properties/properties
+    redirectClose: rejuvenate/properties/properties
+
+# Preview page
+preview:
+    title: Preview Property

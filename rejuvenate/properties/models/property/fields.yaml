@@ -1,0 +1,16 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: Name
+        span: left
+
+    content:
+            tab: Content
+            label: Content
+            prompt: Add a content block
+            span: full
+            type: repeater
+            groups: $/rejuvenate/properties/config/content_fields.yaml  

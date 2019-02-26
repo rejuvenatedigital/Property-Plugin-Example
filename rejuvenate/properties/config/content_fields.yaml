@@ -1,0 +1,20 @@
+blocks:
+    name: Content Blocks
+    icon: icon-align-left
+    fields:
+        content_blocks_section:
+            label: Content Block
+            type: section
+
+        content:
+            label: Content
+            type: richeditor
+
+cards:
+    name: Cards
+    icon: icon-th-large
+    fields:
+
+        content:
+            label: Content
+            type: richeditor
